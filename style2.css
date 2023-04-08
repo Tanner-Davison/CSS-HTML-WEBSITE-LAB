@@ -1,0 +1,7 @@
+.videoPage{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size:xx-large;
+  }

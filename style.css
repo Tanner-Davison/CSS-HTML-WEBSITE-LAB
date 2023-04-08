@@ -1,0 +1,115 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+.titleContainer {                   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 45px;
+    text-align: center;
+}
+.titleContainer .content {
+    position:relative;
+    display:flex;
+    width: 70%;
+    flex-direction: row;
+    font-stretch: extra-condensed;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.titleContainer p {
+    font-size:40px;
+    width: 60%;
+}
+.headings{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    position:relative;
+    /* width:100%; */
+    border-top-left-radius:10%20% ;
+    border-top-right-radius:10%20%;
+    border-bottom-left-radius:10%20%;
+    border-bottom-right-radius:10%30%;
+    background-color:rgb(253, 36, 36) ;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+input[type="text"] {
+    width: 250px;
+    height: 20px;
+    padding-left: 5px;
+    font-family: 'Space Grotesk', sans-serif;
+    border-radius: 25%;
+}
+input[type="Submit"] {
+    margin-left: -50px;
+    height: 25px;
+    width: 60px;
+    background: rgb(0, 0, 2);
+    color: white;
+    border: 0;
+    font-family: 'Space Grotesk', sans-serif;
+    border-radius:15%
+}
+input[type="Submit"]:hover{
+    height:30px;
+    width:65px;
+    font-size:medium;
+}
+.titleImage{  
+    height:200px;
+    width: 200px;
+    margin-top: 0px;
+    box-shadow: 25px 25px 15px rgba(0, 0, 0, 0.3);
+    border:5px outset rgb(230, 213, 22);
+    border-radius: 5%;
+}
+.titleImage:hover{
+    visibility: hidden;
+    opacity: 0;
+    box-shadow: none;
+    height:none;
+    width:none;
+    
+}  
+.image-button{
+    border:none;
+    color: #ffffff00;
+    cursor: pointer;
+    align-items:center;
+    justify-content: center;
+    flex-direction:column;
+    height:200px;
+    width:200px;  
+    border-bottom-right-radius: 10px outset rgb(232, 10, 10);
+}
+.image-button:hover{
+    background-image: url('photos/lets Go.png');
+    border-radius: 50%;
+    box-shadow: 15px 15px 40px rgb(81, 79, 79);
+    border-bottom-right-radius: 10px outset rgb(232, 10, 10);
+}
+.linkToMainPage:hover{
+    height:200px;
+    width:200px;
+}
+
+@media (max-width: 1220px) {
+.titleContainer {
+    font-size: 35px;
+}
+}
+
+
+/* New Page CSS
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+  
